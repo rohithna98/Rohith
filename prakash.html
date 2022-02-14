@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Shine Time Commercial Cleaning Pvt. Ltd</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="imp.css">
+    <link rel="stylesheet" href="fam.css">
+    <style>
+    body,h1,h5 {font-family: "Raleway", sans-serif}
+    body, html {height: 100%}
+    .bgimg {
+      background-image: url('backgroundimage1.jpg');
+      min-height: 100%;
+      background-position: center;
+      background-size: cover;
+    }
+    </style>
+	<link rel = "icon" href ="Shinetimelogo.jpeg" type = "image/x-icon">
+  </head>
+<body>
+
+<div class="bgimg w3-display-container w3-text-blue">
+  <div class="w3-display-middle w3-jumbo">
+    <p><b>Shine Time Commercial <br>&emsp;&nbsp;Cleaning Pvt. Ltd</p>
+  </div>
+  <div class="w3-display-topleft w3-container w3-xlarge">
+    <p><button onclick="document.getElementById('menu').style.display='block'" class="w3-button w3-yellow">Cleaning Services</button></p>
+    <p><button onclick="document.getElementById('contact').style.display='block'" class="w3-button w3-yellow">contact</button></p>
+  </div>
+  <div class="w3-display-bottomleft w3-container">
+    <!--<p class="w3-xlarge">monday - friday 10-23 | saturday 14-02</p>-->
+    <!--<p class="w3-xlarge">Address: 15 chapel street windsor Victoria 3181 Australia</p>-->
+    <!--<p>Made with <a href="https://www.w3schools.com/spaces" target="_blank">W3Schools Spaces</a></p>--->
+  </div>
+</div>
+
+<!-- Menu Modal -->
+<div id="menu" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-black w3-display-container">
+      <span onclick="document.getElementById('menu').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <h1>Services</h1>
+    </div>
+    <div class="w3-container">
+      <h5>Cleaning of flooring including vacuuming carpets</h5>
+      <h5>Dusting furniture</h5>
+      <h5>Disinfecting bathrooms and bathroom spaces</h5>
+      <h5>Mopping floors</h5>
+      <h5>Rubbish removal and cleaning of medical facilities</h5>
+      <h5>Wiping down work stations</h5>    
+      <h5>After hours cleaning</h5>	 
+	  <h5>Cleaning of windows</h5>	  
+    </div>
+  </div>
+</div>
+
+<!-- Contact Modal -->
+<div id="contact" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-black">
+      <span onclick="document.getElementById('contact').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <h1>Contact</h1>
+    </div>
+    <div class="w3-container">
+      <p>Do you need it.<br>please try it.<br>For Details,Enquiry is here:</p>
+      <form action="/action_page.php" target="_blank">
+        <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+        <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="What to Do" required name="Work"></p>
+        <p><input class="w3-input w3-padding-16 w3-border" type="datetime-local" placeholder="Date and time" required name="date" value="2020-11-16T20:00"></p>
+        <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
+        <p><button class="w3-button" type="submit">SEND MESSAGE</button></p>
+		<p><h3 align="center">OR</h3></p>
+		<p class="w3-xlarge">Address: 15 chapel street,<br>&emsp;&emsp;&emsp;&emsp;&nbsp;windsor Victoria 3181,<br>&emsp;&emsp;&emsp;&emsp;&nbsp;Australia.</p>
+		<p class="w3-xlarge"><a href="https://goo.gl/maps/2MYqPtJsx42rxwqt9" target="_blank">Google map link</a></p>
+      </form>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+
